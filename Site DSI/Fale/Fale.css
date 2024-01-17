@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Noto+Sans:wght@700&family=Oswald:wght@500&family=Passion+One&family=Righteous&family=Sriracha&display=swap');
+
+/*cabecçalho*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit', sans-serif;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  padding: 20px;
+  background-color: black;
+  border-bottom: #bfa37c solid;
+}
+
+header img {
+  max-height: 50px;
+
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+nav a {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Kanit', sans-serif;
+  padding: 10px;
+
+}
+
+main {
+  background-color: black;
+ 
+}
+
+#but {
+  padding: 5%;
+  width: 100px;
+}
+
+.user-text-title {
+  color: white;
+  font-family: 'GonziExpanded';
+}
+
+form {
+  padding: 5%;
+}
+
+#esp {
+  width: 1000px;
+}
+
+#sese {
+  margin: 5%;
+  color: black;
+  background-color: white;
+}
+
+
+#sese:hover {
+ background-color:#bfa37c;
+}
+#sese button:hover {
+  background-color:white;
+ }
+
+
+.title-section {
+  color:white;
+  font-size: 100px;
+  text-align: center;
+}
+
+.info-section-width-align {
+  text-align: center;
+
+}
+
+.info-section-width-align-bottom {
+  width: 100%;
+  display: flex;
+  margin-top: 5%;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.info-section-width-align-line {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.content-section {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.contact-info {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-info h2,
+.contact-info h3 {
+  font-size: 20px;
+  color: white;
+}
+
+.address-section h2 {
+  font-size: 20px;
+  color: white;
+}
+
+.address-section,
+.hours-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.hours-section h2 {
+  font-size: 20px;
+  color: white;
+}
+
+.align-info {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.font-title {
+  list-style-type: none;
+  pointer-events: none;
+}
+
+.myButton {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ffffff 5%, #dbdbdb 100%);
+  background-color: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #c7c7c7;
+  display: inline-block;
+  cursor: pointer;
+  color: #141A1C;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 16px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #dbdbdb 5%, #ffffff 100%);
+  background-color: #dbdbdb;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-decoration: underline;
+  padding: 3px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family: 'Kanit', sans-serif;
+}
+
+nav a:hover{
+  color: #a37d00;
+}
+
+header img{
+  border: 1px solid #a37d00;
+  border-radius: 4px;
+  padding: 6px;
+}
